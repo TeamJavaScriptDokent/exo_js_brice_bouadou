@@ -1,3 +1,21 @@
+var div = document.getElementById("myDiv");
+
+alert(div);
+
+var divs = document.getElementsByTagName("div");
+
+for (var i = 0, c = divs.length; i < c; i++) {
+    alert("Element n° " + (i + 1) + " : " + divs[i]);
+}
+
+
+var query = document.querySelector("#menu .item span"),
+queryAll = document.querySelectorAll("#menu .item span");
+alert(query.innerHTML);
+alert(queryAll.length);
+alert(queryAll[0].innerHTML + ' - ' + queryAll[1].innerHTML);
+
+
 let p1 = document.getElementsByTagName("p");
 let height = document.querySelector("#height");
 let width = document.querySelector("#width");
