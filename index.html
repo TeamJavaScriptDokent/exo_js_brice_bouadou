@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trining</title>
+</head>
+<body>
+
+
+    <div id="menu">
+        <div class="item">
+            <span>Element 1</span>
+            <span>Element 2</span>
+        </div>
+        <div class="publicite">
+            <span>Element 3</span>
+            <span>Element 4</span>
+        </div>
+        <div id="contenu">
+            <span>Introduction au contenu de la page...</span>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-lg-6 ">
+                    <p id='myID' style="font-size:20px ; font-family: sans-serif; font-weight: bold;">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived n
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <button class="btn btn-primary" onclick = "changeColor('blue');">Bleu</button>
+                    <button class="btn btn-success" onclick = "changeColor('green');">Vert</button> 
+                    <button  class="btn btn-danger"onclick = "changeColor('red');">Rouge</button>
+                    <button class="btn btn-info" onclick = "changeColor('cyan');">Cyan</button> 
+                </div>
+            </div>
+        </div>
+        <p>Hauteur <span id="height"></span></p>
+        <p>Largeur <span id="width"></span></p>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
